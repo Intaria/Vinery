@@ -13,7 +13,6 @@ public class VineryStorageTypes {
     public static final ResourceLocation NINE_BOTTLE = new VineryIdentifier("nine_bottle");
     public static final ResourceLocation SHELF = new VineryIdentifier("shelf");
     public static final ResourceLocation WINE_BOX = new VineryIdentifier("wine_box");
-    public static final ResourceLocation FLOWER_BOX = new VineryIdentifier("flower_box");
     public static final ResourceLocation WINE_BOTTLE = new VineryIdentifier("wine_bottle");
     public static final ResourceLocation BIG_BOTTLE = new VineryIdentifier("big_bottle");
 
@@ -25,7 +24,6 @@ public class VineryStorageTypes {
         blocks.add(ObjectRegistry.CHERRY_WINE_RACK_MID.get());
         blocks.add(ObjectRegistry.SHELF.get());
         blocks.add(ObjectRegistry.WINE_BOX.get());
-        blocks.add(ObjectRegistry.FLOWER_BOX.get());
         blocks.add(ObjectRegistry.OAK_WINE_RACK_BIG.get());
         blocks.add(ObjectRegistry.OAK_WINE_RACK_SMALL.get());
         blocks.add(ObjectRegistry.OAK_WINE_RACK_MID.get());

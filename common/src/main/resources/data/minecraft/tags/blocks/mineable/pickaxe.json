@@ -3,8 +3,6 @@
   "values": [
     "vinery:wood_fired_oven",
     "vinery:stove",
-    "vinery:big_table",
-    "vinery:kitchen_sink",
-    "vinery:flower_pot"
+    "vinery:kitchen_sink"
   ]
 }

@@ -19,7 +19,6 @@ public class VineryCompostableItems {
         registerCompostableItem(ObjectRegistry.APPLE_LEAVES.get(), 0.4F);
         registerCompostableItem(ObjectRegistry.CHERRY_SAPLING.get(), 0.4F);
         registerCompostableItem(ObjectRegistry.APPLE_MASH.get(), 0.4F);
-        registerCompostableItem(ObjectRegistry.STRAW_HAT.get(), 0.4F);
         registerCompostableItem(ObjectRegistry.JUNGLE_RED_GRAPE_SEEDS.get(), 0.4F);
         registerCompostableItem(ObjectRegistry.JUNGLE_RED_GRAPE.get(), 0.4F);
         registerCompostableItem(ObjectRegistry.JUNGLE_WHITE_GRAPE_SEEDS.get(), 0.4F);

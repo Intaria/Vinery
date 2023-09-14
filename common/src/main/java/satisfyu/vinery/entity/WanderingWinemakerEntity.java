@@ -31,8 +31,6 @@ public class WanderingWinemakerEntity extends WanderingTrader {
 				new VillagerTrades.ItemsForEmeralds(ObjectRegistry.SAVANNA_RED_GRAPEJUICE_BOTTLE.get(), 4, 1, 8, 1),
 				new VillagerTrades.ItemsForEmeralds(ObjectRegistry.TAIGA_WHITE_GRAPEJUICE_BOTTLE.get(), 4, 1, 8, 1),
 				new VillagerTrades.ItemsForEmeralds(ObjectRegistry.JUNGLE_RED_GRAPEJUICE_BOTTLE.get(), 4, 1, 8, 1),
-				new VillagerTrades.ItemsForEmeralds(ObjectRegistry.COARSE_DIRT_SLAB.get(), 1, 3, 8, 1),
-				new VillagerTrades.ItemsForEmeralds(ObjectRegistry.GRASS_SLAB.get(), 1, 3, 8, 1),
 				new VillagerTrades.ItemsForEmeralds(ObjectRegistry.CHERRY_PLANKS.get(), 3, 4, 8, 1),
 				new VillagerTrades.ItemsForEmeralds(ObjectRegistry.CHERRY_WINE.get(), 1, 1, 8, 1)
 		});

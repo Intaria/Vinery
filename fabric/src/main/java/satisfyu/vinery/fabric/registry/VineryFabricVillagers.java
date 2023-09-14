@@ -29,14 +29,12 @@ public class VineryFabricVillagers {
             factories.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.WINE_BOTTLE.get(), 1, 2, 7));
         });
         TradeOfferHelper.registerVillagerOffers(WINEMAKER, 3, factories -> {
-            factories.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.FLOWER_BOX.get(), 3, 1, 10));
             factories.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.WHITE_GRAPE_CRATE.get(), 7, 1, 10));
             factories.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.RED_GRAPE_CRATE.get(), 7, 1, 10));
 
         });
         TradeOfferHelper.registerVillagerOffers(WINEMAKER, 4, factories -> {
             factories.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.BASKET.get(), 4, 1, 10));
-            factories.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.FLOWER_POT.get(), 5, 1, 10));
             factories.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.WINDOW.get(), 12, 1, 10));
             factories.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.CHERRY_BEAM.get(), 6, 1, 10));
 

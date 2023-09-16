@@ -15,8 +15,6 @@ public class ClientStorageTypes {
     public static void init(){
         registerStorageType(VineryStorageTypes.FOUR_BOTTLE, new FourBottleRenderer());
         registerStorageType(VineryStorageTypes.NINE_BOTTLE, new NineBottleRenderer());
-        registerStorageType(VineryStorageTypes.SHELF, new ShelfRenderer());
-        registerStorageType(VineryStorageTypes.WINE_BOX, new WineBoxRenderer());
         registerStorageType(VineryStorageTypes.WINE_BOTTLE, new WineBottleRenderer());
         registerStorageType(VineryStorageTypes.BIG_BOTTLE, new BigBottleRenderer());
     }

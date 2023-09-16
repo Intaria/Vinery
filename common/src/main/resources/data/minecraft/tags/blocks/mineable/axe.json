@@ -12,10 +12,7 @@
     "vinery:white_grape_crate",
     "vinery:wine_press",
     "vinery:barrel",
-    "vinery:storage_pot",
     "vinery:cherry_sign",
-    "vinery:cherry_fence_gate",
-    "vinery:wine_box",
-    "#vinery:wine_racks"
+    "vinery:cherry_fence_gate"
   ]
 }

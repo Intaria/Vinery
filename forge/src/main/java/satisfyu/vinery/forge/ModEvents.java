@@ -40,12 +40,10 @@ public class ModEvents {
                 level3.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.RED_GRAPE_CRATE.get(), 7, 1, 10));
 
                 List<VillagerTrades.ItemListing> level4 = trades.get(4);
-                level4.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.BASKET.get(), 4, 1, 10));
                 level4.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.WINDOW.get(), 12, 1, 10));
                 level4.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.CHERRY_BEAM.get(), 6, 1, 10));
 
                 List<VillagerTrades.ItemListing> level5 = trades.get(5);
-                level5.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.WINE_BOX.get(), 10, 1, 10));
                 level5.add(new VineryVillagerUtil.SellItemFactory(ObjectRegistry.KING_DANIS_WINE.get(), 4, 1, 10));
             }
         }

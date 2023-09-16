@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "vinery:shelf",
     "vinery:cherry_door",
     "vinery:apple_juice",
     "vinery:chenet_wine",
@@ -17,8 +16,6 @@
     "vinery:jellie_wine",
     "vinery:aegis_wine",
     "vinery:apple_wine",
-    "vinery:wine_box",
-    "vinery:basket",
     "vinery:chorus_wine",
     "vinery:strad_wine",
     "vinery:stal_wine",

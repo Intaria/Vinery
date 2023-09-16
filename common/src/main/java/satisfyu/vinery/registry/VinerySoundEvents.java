@@ -14,11 +14,7 @@ public class VinerySoundEvents {
 
     public static final RegistrySupplier<SoundEvent> BLOCK_GRAPEVINE_POT_SQUEEZE = create("block.grapevine_pot.squeeze");
     public static final RegistrySupplier<SoundEvent> BLOCK_FAUCET = create("block.kitchen_sink.faucet");
-    public static final RegistrySupplier<SoundEvent> WINE_RACK_3_OPEN = create("block.wine_rack_3.open");
-    public static final RegistrySupplier<SoundEvent> WINE_RACK_3_CLOSE = create("block.wine_rack_3.close");
-    public static final RegistrySupplier<SoundEvent> WINE_RACK_5_OPEN = create("block.wine_rack_5.open");
-    public static final RegistrySupplier<SoundEvent> WINE_RACK_5_CLOSE = create("block.wine_rack_5.close");
-
+    
 
     private static RegistrySupplier<SoundEvent> create(String name) {
         final ResourceLocation id = new VineryIdentifier(name);

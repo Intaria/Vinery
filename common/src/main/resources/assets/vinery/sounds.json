@@ -15,29 +15,5 @@
       "vinery:block/grapevine_pot/squeeze3",
       "vinery:block/grapevine_pot/squeeze4"
     ]
-  },
-  "block.wine_rack_3.open": {
-    "subtitle": "subtitles.vinery.rack",
-    "sounds": [
-      "vinery:block/wine_rack/wine_rack_3_open"
-    ]
-  },
-  "block.wine_rack_5.open": {
-    "subtitle": "subtitles.vinery.rack",
-    "sounds": [
-      "vinery:block/wine_rack/wine_rack_5_open"
-    ]
-  },
-  "block.wine_rack_3.close": {
-    "subtitle": "subtitles.vinery.rack",
-    "sounds": [
-      "vinery:block/wine_rack/wine_rack_3_close"
-    ]
-  },
-  "block.wine_rack_5.close": {
-    "subtitle": "subtitles.vinery.rack",
-    "sounds": [
-      "vinery:block/wine_rack/wine_rack_5_close"
-    ]
   }
 }

@@ -42,15 +42,12 @@ public class VineryClient {
                 SAVANNA_RED_GRAPE_BUSH.get(), SAVANNA_WHITE_GRAPE_BUSH.get(),
                 CHORUS_WINE.get(), STAL_WINE.get(), MAGNETIC_WINE.get(), STRAD_WINE.get(), JUNGLE_WHITE_GRAPE_BUSH.get(),
                 JUNGLE_RED_GRAPE_BUSH.get(), TAIGA_RED_GRAPE_BUSH.get(), TAIGA_WHITE_GRAPE_BUSH.get(),
-                GRAPEVINE_STEM.get(), GRAPEVINE_LATTICE.get(), WINE_BOX.get(),
+                GRAPEVINE_STEM.get(), GRAPEVINE_LATTICE.get(),
                 WINE_PRESS.get(), CHERRY_SAPLING.get(), APPLE_TREE_SAPLING.get(),
                 KITCHEN_SINK.get(), APPLE_LEAVES.get(), POTTED_APPLE_TREE_SAPLING.get(),
                 POTTED_CHERRY_TREE_SAPLING.get(), RED_WINE.get(), PRAETORIAN_WINE.get(),
                 CRISTEL_WINE.get(), VILLAGERS_FRIGHT.get(), EISWEIN.get(), CREEPERS_CRUSH.get(),
-                GLOWING_WINE.get(), JO_SPECIAL_MIXTURE.get(), MEAD.get(), BOTTLE_MOJANG_NOIR.get(),
-                OAK_WINE_RACK_MID.get(), DARK_OAK_WINE_RACK_MID.get(), BIRCH_WINE_RACK_MID.get(),
-                SPRUCE_WINE_RACK_MID.get(), JUNGLE_WINE_RACK_MID.get(), MANGROVE_WINE_RACK_MID.get(), CHERRY_WINE_RACK_MID.get(),
-                ACACIA_WINE_RACK_MID.get()
+                GLOWING_WINE.get(), JO_SPECIAL_MIXTURE.get(), MEAD.get(), BOTTLE_MOJANG_NOIR.get()
                 );
 
         ClientStorageTypes.init();

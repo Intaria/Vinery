@@ -43,8 +43,8 @@ public class VineryClient {
                 CHORUS_WINE.get(), STAL_WINE.get(), MAGNETIC_WINE.get(), STRAD_WINE.get(), JUNGLE_WHITE_GRAPE_BUSH.get(),
                 JUNGLE_RED_GRAPE_BUSH.get(), TAIGA_RED_GRAPE_BUSH.get(), TAIGA_WHITE_GRAPE_BUSH.get(),
                 GRAPEVINE_STEM.get(), GRAPEVINE_LATTICE.get(),
-                WINE_PRESS.get(), CHERRY_SAPLING.get(), APPLE_TREE_SAPLING.get(),
-                KITCHEN_SINK.get(), APPLE_LEAVES.get(), POTTED_APPLE_TREE_SAPLING.get(),
+                WINE_PRESS.get(), CHERRY_SAPLING.get(),
+                KITCHEN_SINK.get(),
                 POTTED_CHERRY_TREE_SAPLING.get(), RED_WINE.get(), PRAETORIAN_WINE.get(),
                 CRISTEL_WINE.get(), VILLAGERS_FRIGHT.get(), EISWEIN.get(), CREEPERS_CRUSH.get(),
                 GLOWING_WINE.get(), JO_SPECIAL_MIXTURE.get(), MEAD.get(), BOTTLE_MOJANG_NOIR.get()
@@ -53,8 +53,6 @@ public class VineryClient {
         ClientStorageTypes.init();
         RenderTypeRegistry.register(RenderType.translucent(), WINDOW.get());
 
-
-        ColorHandlerRegistry.registerItemColors((stack, tintIndex) -> FoliageColor.get(0.5, 1.0), APPLE_LEAVES_ITEM);
 
         ColorHandlerRegistry.registerBlockColors((state,world,pos,tintIndex)->{
                     if(world== null || pos == null){
@@ -70,7 +68,7 @@ public class VineryClient {
                     }
                     return BiomeColors.getAverageFoliageColor(world,pos);
                 }, SAVANNA_RED_GRAPE_BUSH.get(), SAVANNA_WHITE_GRAPE_BUSH.get(), JUNGLE_RED_GRAPE_BUSH.get(), JUNGLE_WHITE_GRAPE_BUSH.get(),
-                   GRAPEVINE_STEM.get(), GRAPEVINE_LATTICE.get(),APPLE_LEAVES.get()
+                   GRAPEVINE_STEM.get(), GRAPEVINE_LATTICE.get()
         );
 
 

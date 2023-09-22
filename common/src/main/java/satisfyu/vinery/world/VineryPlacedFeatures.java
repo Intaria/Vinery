@@ -7,9 +7,7 @@ import satisfyu.vinery.VineryIdentifier;
 
 public class VineryPlacedFeatures {
     public static final ResourceKey<PlacedFeature> TREE_CHERRY_PLACED_KEY = registerKey("tree_cherry");
-    public static final ResourceKey<PlacedFeature> TREE_APPLE_PLACED_KEY = registerKey("tree_apple");
-
-
+    
     public static final ResourceKey<PlacedFeature> RED_GRAPE_PATCH_CHANCE_KEY = registerKey("red_grape_bush_chance");
     public static final ResourceKey<PlacedFeature> WHITE_GRAPE_PATCH_CHANCE_KEY = registerKey("white_grape_bush_chance");
     public static final ResourceKey<PlacedFeature> TAIGA_RED_GRAPE_PATCH_CHANCE_KEY = registerKey("taiga_red_grape_bush_chance");

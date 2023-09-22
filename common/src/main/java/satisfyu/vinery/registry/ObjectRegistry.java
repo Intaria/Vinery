@@ -85,27 +85,13 @@ public class ObjectRegistry {
 
     }, BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)));
     public static final RegistrySupplier<Item>  CHERRY_SAPLING_ITEM = registerI("cherry_sapling", () -> new BlockItem(CHERRY_SAPLING.get(), getSettings()));
-    public static final RegistrySupplier<Block> APPLE_TREE_SAPLING = registerB("apple_tree_sapling", () -> new SaplingBlock(new ConfiguredFeatureSaplingGenerator() {
-        @Override
-        protected @NotNull ResourceKey<ConfiguredFeature<?, ?>> getTreeConfiguredFeature(RandomSource random, boolean bees) {
-            if (random.nextBoolean()) {
-                if (bees) return VineryConfiguredFeatures.APPLE_BEE_KEY;
-                return VineryConfiguredFeatures.APPLE_KEY;
-            } else {
-                if (bees) return VineryConfiguredFeatures.APPLE_VARIANT_WITH_BEE_KEY;
-                return VineryConfiguredFeatures.APPLE_VARIANT_KEY;
-            }
-        }
-    }, BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)));
-    public static final RegistrySupplier<Item>  APPLE_TREE_SAPLING_ITEM = registerI("apple_tree_sapling", () -> new BlockItem(APPLE_TREE_SAPLING.get(), getSettings()));
+
     public static final RegistrySupplier<Item> CHERRY = registerI("cherry", () -> new CherryItem(getSettings().food(Foods.COOKIE)));
     public static final RegistrySupplier<Item> ROTTEN_CHERRY = registerI("rotten_cherry", () -> new RottenCherryItem(getSettings().food(Foods.POISONOUS_POTATO)));
     public static final RegistrySupplier<Block> GRAPEVINE_LEAVES = registerB("grapevine_leaves", () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistrySupplier<Item>  GRAPEVINE_LEAVES_ITEM = registerI("grapevine_leaves", () -> new BlockItem(GRAPEVINE_LEAVES.get(), getSettings()));
     public static final RegistrySupplier<Block> CHERRY_LEAVES = registerB("cherry_leaves", () -> new CherryLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
     public static final RegistrySupplier<Item>  CHERRY_LEAVES_ITEM = registerI("cherry_leaves", () -> new BlockItem(CHERRY_LEAVES.get(), getSettings()));
-    public static final RegistrySupplier<Block> APPLE_LEAVES = registerB("apple_leaves", () -> new AppleLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
-    public static final RegistrySupplier<Item>  APPLE_LEAVES_ITEM = registerI("apple_leaves", () -> new BlockItem(APPLE_LEAVES.get(), getSettings()));
     public static final RegistrySupplier<Block> WHITE_GRAPE_CRATE = registerB("white_grape_crate", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
     public static final RegistrySupplier<Item>  WHITE_GRAPE_CRATE_ITEM = registerI("white_grape_crate", () -> new BlockItem(WHITE_GRAPE_CRATE.get(), getSettings()));
     public static final RegistrySupplier<Block> RED_GRAPE_CRATE = registerB("red_grape_crate", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
@@ -123,10 +109,6 @@ public class ObjectRegistry {
     public static final RegistrySupplier<Block> WINE_PRESS = registerB("wine_press", () -> new WinePressBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD).noOcclusion()));
     public static final RegistrySupplier<Item>  WINE_PRESS_ITEM = registerI("wine_press", () -> new BlockItem(WINE_PRESS.get(), getSettings()));
  
-    public static final RegistrySupplier<Block> APPLE_LOG = registerB("apple_log", GeneralUtil::logBlock);
-    public static final RegistrySupplier<Item>  APPLE_LOG_ITEM = registerI("apple_log", () -> new BlockItem(APPLE_LOG.get(), getSettings()));
-    public static final RegistrySupplier<Block> APPLE_WOOD = registerB("apple_wood", GeneralUtil::logBlock);
-    public static final RegistrySupplier<Item>  APPLE_ITEM = registerI("apple_wood", () -> new BlockItem(APPLE_WOOD.get(), getSettings()));
     public static final RegistrySupplier<Block> STRIPPED_CHERRY_LOG = registerB("stripped_cherry_log", GeneralUtil::logBlock);
     public static final RegistrySupplier<Item>  STRIPPED_CHERRY_LOG_ITEM = registerI("stripped_cherry_log", () -> new BlockItem(STRIPPED_CHERRY_LOG.get(), getSettings()));
     public static final RegistrySupplier<Block> CHERRY_LOG = registerB("cherry_log", GeneralUtil::logBlock);
@@ -232,7 +214,6 @@ public class ObjectRegistry {
     public static final RegistrySupplier<Item>  GRAPEVINE_STEM_ITEM = registerI("grapevine_stem", () -> new BlockItem(GRAPEVINE_STEM.get(), getSettings()));
     public static final RegistrySupplier<Item> MULE_SPAWN_EGG = registerI("mule_spawn_egg", () -> new ArchitecturySpawnEggItem(VineryEntites.MULE, -1, -1, getSettings()));
     public static final RegistrySupplier<Item> WANDERING_WINEMAKER_SPAWN_EGG = registerI("wandering_winemaker_spawn_egg", () -> new ArchitecturySpawnEggItem(VineryEntites.WANDERING_WINEMAKER, -1, -1, getSettings()));
-    public static final RegistrySupplier<Block> POTTED_APPLE_TREE_SAPLING = registerB("potted_apple_tree_sapling", () -> new net.minecraft.world.level.block.FlowerPotBlock(ObjectRegistry.APPLE_TREE_SAPLING.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_POPPY)));
     public static final RegistrySupplier<Block> POTTED_CHERRY_TREE_SAPLING = registerB("potted_cherry_tree_sapling", () -> new net.minecraft.world.level.block.FlowerPotBlock(ObjectRegistry.CHERRY_SAPLING.get(), BlockBehaviour.Properties.copy(Blocks.POTTED_POPPY)));
     
     //deprecated items - not craftable, not visible in the creative inventory - just here so player won't lose their hardly crafted Blocks
